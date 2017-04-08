@@ -1,0 +1,20 @@
+<article class="article">
+  <div class="post_center">
+    <h2>
+       <a class="article-title" href="{{ post.url | prepand: site.baseurl }}">{{ post.title | escape }}</a>
+    </h2>
+    <div class="post-meta">
+      <span>
+        {% if page.lang == "en" %}
+           {{ post.date | usaDate }}
+        {% else %}
+           {{ post.date | brazilianDate }}
+        {% endif %}
+      </span>
+    </div>
+    <p>{{ post.excerpt }}</p>
+    {% if post.excerpt %}
+      <a href="{{ post.url | prepend: site.baseurl }}" class="button">{{ site.e[page.lang]read }}</a>
+    {% endif %}
+  </div>
+</article>

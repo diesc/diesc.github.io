@@ -1,0 +1,25 @@
+---
+layout: default
+title: Artigos
+ref: articles
+lang: pt
+---
+<div class="centered">
+  {% assign posts=site.posts | where:"lang", page.lang %}
+  {% for post in posts %}
+      {% include date.html date=post.date %}
+      {% assign m = month  %}
+      {% assign y = year   %}
+      {% capture currentDate %}
+        {{ month }}, {{ year }}
+      {% endcapture %}
+      {% if currentDate != myDate %}
+          {% unless forloop.first %}</ul>{% endunless %}
+          <h1>{{ currentDate }}</h1>
+          <ul>
+          {% assign myDate = currentDate %}
+      {% endif %}
+      {% include article_post.html %}
+      {% if forloop.last %}</ul>{% endif %}
+  {% endfor %}
+</div>
