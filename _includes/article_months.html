@@ -1,0 +1,31 @@
+<div class="centered">
+  {% assign posts=site.posts | where:"lang", page.lang %}
+  {% for post in posts %}
+      {% include date.html date=post.date %}
+
+      {% if page.lang == "en" %}
+          {% assign cDate = post.date | date: "%B, %Y" %}
+          {% capture currentDate %}
+            {{ cDate }}
+          {% endcapture %}
+      {% else %}
+          {% assign m = month  %}
+          {% assign y = year   %}
+          {% capture currentDate %}
+            {{ month }}, {{ year }}
+          {% endcapture %}
+      {% endif %}
+
+      {% if currentDate != myDate %}
+          {% unless forloop.first %}</ul>{% endunless %}
+          <h1>{{ currentDate }}</h1>
+          <ul>
+          {% assign myDate = currentDate %}
+      {% endif %}
+
+      {% include article_post.html %}
+      
+      {% if forloop.last %}</ul>{% endif %}
+
+  {% endfor %}
+</div>
