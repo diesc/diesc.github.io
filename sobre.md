@@ -39,9 +39,9 @@ O **terceiro** veio para compartilhar os meus hobbies, o que eu gosto e o que eu
 ### Como eu posso entrar em contato com você?  
 Quer conversar, fazer proposta, dar e/ou receber conselhos e dicas, contar histórias, desabafo e etc?  
 
-[diegosc@protonmail.com](mailto:diegosc@protonmail.com)  
-[@Di_Will](https://twitter.com/Di_Will)  
-[disouzacosta](https://linkedin.com/in/disouzacosta/)  
+[diegosc@protonmail.com](mailto:{{ site.email }})  
+[@Di_Will](https://twitter.com/{{ site.twitter_username }})  
+[disouzacosta](https://linkedin.com/in/{{ site.linkedin_username }})  
 
 ### O que me inspira.
 [Mateus 25:14 ~ 30](https://www.bibliaonline.com.br/acf/mt/25/14-30)  

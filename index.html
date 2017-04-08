@@ -3,13 +3,4 @@ layout: default
 ref: index
 lang: en
 ---
-<div class="centered">
-  <h3 class="text-main">{{ site.description[page.lang] | escape }}</h3>
-
-  {% include icon_home.html %}
-  {% assign posts=site.posts | where:"lang", page.lang %}
-  {% for post in posts limit: 5 %}
-    {% include article_post.html %}
-  {% endfor %}
-  <p>More <a href="/articles">Articles</a></p>
-</div>
+{% include articles_main.html %}

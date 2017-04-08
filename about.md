@@ -39,9 +39,9 @@ The **third** (the last but not least) reason came to share my hobbies, to share
 ### How can I contact you?
 Do you want to chat, make a job proposal, give and receive advice/tips and so forth?  
 
-[diegosc@protonmail.com](mailto:diegosc@protonmail.com)  
-[@Di_Will](https://twitter.com/Di_Will)  
-[disouzacosta](https://linkedin.com/in/disouzacosta/)  
+[diegosc@protonmail.com](mailto:{{ site.email }})  
+[@Di_Will](https://twitter.com/{{ site.twitter_username }})  
+[disouzacosta](https://linkedin.com/in/{{ site.linkedin_username }})  
 
 ### What inspire me.
 [Matthew 25:14 ~ 30](https://www.biblegateway.com/passage/?search=Matthew+25:14-30)  
