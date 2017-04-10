@@ -5,7 +5,7 @@ description:
   en: I'm a software, web and musician (why not) developer in new things.
   pt: Sou dev de software, web e músico (por que não) em coisas novas.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://diegosc.com" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://diegosc.com" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: Di_Will
 github_username:  diegosozua
 linkedin_username: disouzacosta
