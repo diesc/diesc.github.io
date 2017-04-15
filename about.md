@@ -10,7 +10,7 @@ style: |
 ### Hi, I'm **Diego**, the guy behind of this blog!  
 
 I'm software and web developer, musician (in my relax time). I live in Praia Grande, São Paulo.
-I graduated in *system analysis and development* from Fatec-PG college.  
+I graduated in *system analysis and development* from Fatec-PG college and one of the co-founders of [Weyes Technology Solutions](http://weyes.com.br/).  
 
 I started work as a programmer in the early  of 2014, before that I had already taught the basic of computer design for teenagers using **GIMP** and **Flash CS6** tools in municipal educational system of the city.  
 

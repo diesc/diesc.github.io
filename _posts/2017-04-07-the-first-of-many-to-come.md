@@ -2,7 +2,7 @@
 layout: post
 title:  "The First of many to come!"
 date:   2017-04-07 19:10:11 -0300
-excerpt: Everything in life has a begining "capitain obvious", this is mine begin, the begin to getting out of my box and get started to expose things that I did, I do and the things that I'll do for...
+excerpt: Everything in life has a beginning "capitain obvious", this is mine begin, the begin to getting out of my box and get started to expose things that I did, I do and the things that I'll do for...
 ref: thefirst
 lang: en
 style: |

@@ -9,7 +9,7 @@ style: |
 ### Olá, eu sou o **Diego**, o cara por trás desse blog!  
 
 Sou desenvolvedor de software e web e músico(horas vagas). Moro em Praia Grande, litoral de São Paulo.
-Sou formado em analises e desenvolvimento de sistemas pela Fatec-PG.
+Sou formado em analises e desenvolvimento de sistemas pela Fatec-PG e um dos co-fundadores da [Weyes Technology Solutions](http://weyes.com.br/).
 
 Comecei a trabalhar com desenvolvimento no ínicio de 2014, já trabalhei com Android, Java, C# e analises de requisitos.   
 Antes disso eu já havia lecionado o básico da computação gráfica com as ferramentas ***GIMP*** e ***Flash CS6*** para crianças e adolescentes da rede municipal de ensino da cidade onde moro.
