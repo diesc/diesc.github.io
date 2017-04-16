@@ -1,9 +1,15 @@
 # Welcome to Jekyll!
 title: Diego S.C.
 email: diegosc@protonmail.com
-description:
-  en: I'm a software, web and musician (why not) developer in new things.
-  pt: Sou dev de software, web e músico (por que não) em coisas novas.
+description: Software Developer | Web Developer | Musician
+#   en: I'm a software, web and musician (why not) developer in new things.
+#   pt: Sou dev de software, web e músico (por que não) em coisas novas.
+d:
+  en:
+    description: I'm a software, web and musician (why not) developer in new things.
+  pt:
+    description: Sou dev de software, web e músico (por que não) em coisas novas.
+
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://diegosc.com" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: Di_Will
@@ -78,6 +84,8 @@ markdown: kramdown
 
 gems:
   - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
 
 exclude:
   - Gemfile

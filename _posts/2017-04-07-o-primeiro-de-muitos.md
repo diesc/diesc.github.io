@@ -1,8 +1,9 @@
 ---
 layout: post
 title:  "O Primeiro de muitos!"
+description: Como tudo nessa vida tem um início "capitão óbvio", esse é o meu ínicio, de sair um pouco da minha caixa e começar expor as coisas que eu fiz, faço e pretendo fazer para.
 date:   2017-04-07 19:10:11 -0300
-excerpt: Como tudo nessa vida tem um ínicio "capitão óbvio", esse é o meu ínicio, de sair um pouco da minha caixa e começar expor as coisas que eu fiz, faço e pretendo fazer para...
+excerpt: Como tudo nessa vida tem um início "capitão óbvio", esse é o meu ínicio, de sair um pouco da minha caixa e começar expor as coisas que eu fiz, faço e pretendo fazer para...
 ref: thefirst
 lang: pt
 style: |

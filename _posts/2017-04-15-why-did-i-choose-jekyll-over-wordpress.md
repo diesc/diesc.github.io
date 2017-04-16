@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Why did I choose Jekyll over Wordpress?"
+description: I'm considering that you've already know why I decided to create a blog so in this post, I'll explain why I chose jekyll over wordpress.
 date:   2017-04-15 12:33:11 -0300
 excerpt: I'm considering that you've already know why I decided to create a blog so in this post, I'll explain why I chose jekyll over wordpress...
 ref: jekyllxwordpress
