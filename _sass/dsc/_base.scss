@@ -159,6 +159,18 @@ ul {
   }
 }
 
+@media (min-width: 1920px) {
+  body {
+    font-size: 1.692em;
+  }
+}
+
+@media (min-width: 2560px) {
+  body {
+    font-size: 1.743em;
+  }
+}
+
 /**
  * Figures
  */

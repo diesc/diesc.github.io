@@ -4,7 +4,7 @@ title: Sobre
 ref: about
 lang: pt
 style: |
-  body{background-color: #e6e5ff;}
+  body{background-color: #FEFAF6;}
 ---
 ### Olá, eu sou o **Diego**, o cara por trás desse blog!  
 

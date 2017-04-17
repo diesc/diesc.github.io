@@ -8,7 +8,7 @@ ref: jekyllxwordpress
 lang: en
 style: |
   body { background-color: #ecf0f1; }
-  span.reading-time { color: #3a3a3a; }
+
 ---
 ### Wordpress has a huge community support, it has a lot of specialized sites, yadda yadda blogs, yadda yadda plugins, yadda yadda tutorials and yadda yadda yadda and yadda.
 

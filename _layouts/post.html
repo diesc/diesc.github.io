@@ -4,7 +4,12 @@ layout: default
 <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
   {% include post_header.html %}
   <div class="centered" itemprop="articleBody">
-    {{ content }}
-    {% include share_page.html %}
+    <div class="post_content">
+      {{ content }}
+      {% include share_page.html %}
+
+      {% include disqus-comment.html %}
+
+    </div>
   </div>
 </article>

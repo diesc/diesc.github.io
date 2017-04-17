@@ -214,6 +214,76 @@ a.site-title {
     font-size: 22px;
   }
 }
+
+@media (min-width: 1920px) {
+  h2 a.article-title {
+    font-size: 3.5rem;
+  }
+
+  h3.text-main {
+    font-size: 5.5em; }
+
+  .section_content {
+    margin: 14vh auto 12vh;
+    font-size: 1.0em; }
+
+  .section_content p {
+    font-size: 25px;
+    margin: 0 0 1em;
+  }
+  .section_content a {
+    font-size: 25px;
+  }
+
+  .centered {
+    max-width: 40em;
+    margin: 0 auto;
+    clear: both;
+    width: 55%; }
+
+  .post_center {
+    padding: 0 5% 0 5%;
+  }
+
+  .more_article {
+    margin: 0 5% 0 5%;
+  }
+}
+
+@media (min-width: 2560px) {
+  h2 a.article-title {
+    font-size: 3.9rem;
+  }
+
+  h3.text-main {
+    font-size: 5.512em; }
+
+  .section_content {
+    margin: 12vh auto 12vh;
+    font-size: 1.0em; }
+
+  .section_content p {
+    font-size: 30px;
+    margin: 0 0 1em;
+  }
+  .section_content a {
+    font-size: 30px;
+  }
+
+  .centered {
+    max-width: 50em;
+    margin: 0 auto;
+    clear: both;
+    width: 50%; }
+
+  .post_center {
+    padding: 0 10% 0 10%;
+  }
+
+  .more_article {
+    margin: 0 10% 0 10%;
+  }
+}
 /**
 *Articles
 *******************************************************************************/
@@ -321,6 +391,43 @@ a.button:hover {
     position: relative;
     left: 14.4em; } }
 
+@media (min-width: 1920px) {
+  .post-title {
+    font-size: 200px;
+    padding: 0 5% 0 5%;
+  }
+
+  span.reading-time {
+    position: relative;
+    left: 19.8em; }
+
+  .post-meta span {
+    font-size: 20px;
+  }
+
+  .post_content {
+    padding: 0 10% 0 10%;
+  }
+}
+
+@media (min-width: 2560px) {
+  .post-title {
+    font-size: 235px;
+    padding: 0 10% 0 10%;
+  }
+
+  span.reading-time {
+    position: relative;
+    left: 29.6em; }
+
+  .post-meta span {
+    font-size: 20px;
+  }
+
+  .post_content {
+    padding: 0 15% 0 15%;
+  }
+}
 /**
  * Icons
  **************************************************************************/
@@ -352,6 +459,18 @@ a.button:hover {
 
 .icons-home a:hover .icon {
   fill: #fff; }
+
+@media (min-width: 1920px) {
+  .icons-home {
+    margin: 0 5% 0 5%;
+  }
+}
+
+@media (min-width: 2560px) {
+  .icons-home {
+    margin: 0 10% 0 10%;
+  }
+}
 
 /**
 * Previous and Next Paginate

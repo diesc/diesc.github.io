@@ -5,7 +5,7 @@ ref: about
 lang: en
 permalink: /about/
 style: |
-  body{background-color: #b6f2a5;}
+  body{background-color: #FEFAF6;}
 ---
 ### Hi, I'm **Diego**, the guy behind of this blog!  
 

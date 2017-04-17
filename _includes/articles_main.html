@@ -5,5 +5,7 @@
   {% for post in posts limit: 5 %}
     {% include article_post.html %}
   {% endfor %}
-  <p>{{ site.a[page.lang]more }} <a href="/articles">{{ site.article[page.lang] }}</a></p>
+  <div class="more_article">
+    <p>{{ site.a[page.lang]more }} <a href="/articles">{{ site.article[page.lang] }}</a></p>
+  </div>
 </div>

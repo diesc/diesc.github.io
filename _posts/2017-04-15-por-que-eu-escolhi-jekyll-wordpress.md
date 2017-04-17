@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Por que eu escolhi Jekyll ao invés do Wordpress?"
+title:  "Por que eu escolhi Jekyll e não Wordpress?"
 description: Estou considerando que você já sabe o por que eu decidir criar um blog então, neste post, eu irei explicar do por que eu escolhi o Jekyll ao invés do Wordpress.
 date:   2017-04-15 12:33:11 -0300
 excerpt: Estou considerando que você já sabe o por que eu decidir criar um blog então, neste post, eu irei explicar do por que eu escolhi o Jekyll ao invés do Wordpress...
@@ -8,7 +8,7 @@ ref: jekyllxwordpress
 lang: pt
 style: |
   body { background-color: #ecf0f1; }
-  span.reading-time { color: #3a3a3a; }
+
 ---
 ### Wordpress tem uma grande comunidade, tem um monte de sites especializados, blá blá blogs, blá blá plugins, blá blá tutoriais e blá blá blá e blá
 

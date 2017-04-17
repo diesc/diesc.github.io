@@ -7,7 +7,7 @@ excerpt: Como tudo nessa vida tem um início "capitão óbvio", esse é o meu í
 ref: thefirst
 lang: pt
 style: |
-  body { background-color: #ddfeff; }
+  body { background-color: #fff8ed; }
   span.reading-time { color: #3a3a3a; }
 ---
 ### Aqui estou eu, escrevendo meu primeiro de muitos post que hão de vir
