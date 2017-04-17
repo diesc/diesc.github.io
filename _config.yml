@@ -2,8 +2,7 @@
 title: Diego S.C.
 email: diegosc@protonmail.com
 description: Software Developer | Web Developer | Musician
-#   en: I'm a software, web and musician (why not) developer in new things.
-#   pt: Sou dev de software, web e músico (por que não) em coisas novas.
+
 d:
   en:
     description: I'm a software, web and musician (why not) developer in new things.
@@ -15,7 +14,7 @@ url: "https://diegosc.com" # the base hostname & protocol for your site, e.g. ht
 twitter_username: Di_Will
 github_username:  diegosozua
 linkedin_username: disouzacosta
-facebook_username: SouzaDiego
+facebook_username: diegsc
 
 permalink: /:title
 
