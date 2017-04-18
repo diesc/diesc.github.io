@@ -1,4 +1,14 @@
 <footer class="site-footer">
+  <script>
+    (function(){
+      var dsc = document.createElement('link');
+      dsc.type = 'text/css';
+      dsc.rel = 'stylesheet';
+      dsc.href = '/assets/main.css';
+      var s = document.getElementsByTagName('link')[0];
+      s.parentNode.insertBefore(dsc, s);
+    })();
+  </script>
   <nav class="footer-text" role="navigation">
     <span id="made-jekyll">
       <a>&copy; 2017 Diego S.C.</a>

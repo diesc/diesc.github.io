@@ -8,15 +8,24 @@
 
   <!--Open Graph Protocol Facebook-->
   <meta property="og:locale" content="en_US">
-  <meta property="og:type" content="article">
+  {% if page.title %}
+    <meta property="og:type" content="article">
+  {% else %}
+    <meta property="og:type" content="website">
+  {% endif %}
   <meta property="og:title" content="{%if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
   <meta property="og:url" content="{{ site.url }}{{ page.url }}">
   <meta property="og:site_name" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
   <meta property="article:publisher" content="http://www.facebook.com/{{ site.facebook_username }}" />
-  <meta property="article:author" content="https://www.facebook.com/{{ site.facebook_username }}" />
-  <meta property="article:published_time" content="{{ page.date }}" />
-  <meta property="og:description" content="{{ page.excerpt | default: site.description | strip_html | normalize_whitespace | truncate: 160 | escape }}">
-
+  {% if page.date %}
+    <meta content="{{ page.date | date_to_xmlschema }}" property="article:published_time">
+    <meta content="{{ site.url }}{{ site.i[page.lang]about }}" property="article:author">
+  {% endif %}
+  {% if page.description %}
+    <meta property="og:description" content="{{ page.description | strip_html | normalize_whitespace | truncate: 160 | escape }}">
+  {% else %}
+    <meta property="og:description" content="{{ site.description | strip_html | normalize_whitespace | truncate: 160 | escape }}">
+  {% endif %}
   <!--Twitter Cards-->
   <meta name="twitter:card" content="summary_large_image"/>
   <meta name="twitter:title" content="{%if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
@@ -25,7 +34,11 @@
   <meta name="twitter:creator" content="@Di_Will">
   <meta name="twitter:card" content="summary">
 
-  <link rel="stylesheet" href="{{ "/assets/main.css" | relative_url }}">
+  <link rel="stylesheet" href="{{ "/assets/critical.css" | relative_url }}">
+  <noscript>
+      <link rel="stylesheet" href="{{ "/assets/main.css" | relative_url }}">
+  </noscript>
+
   <link rel="canonical" href="{{ page.url | prepend: site.url }}">
   {% assign posts=site.posts | where:"ref", page.ref | sort: 'lang' %}{% for post in posts %}
   <link rel="alternate" hreflang="{{ post.lang }}" href="{{ post.url }}" />{% endfor %}
@@ -37,6 +50,6 @@
   </style>
 
   {% if jekyll.environment == 'production' %}
-  {% include google-analytics.html %}
+      {% include google-analytics.html %}
   {% endif %}
 </head>
