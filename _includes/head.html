@@ -34,11 +34,6 @@
   <meta name="twitter:creator" content="@Di_Will">
   <meta name="twitter:card" content="summary">
 
-  <link rel="stylesheet" href="{{ "/assets/critical.css" | relative_url }}">
-  <noscript>
-      <link rel="stylesheet" href="{{ "/assets/main.css" | relative_url }}">
-  </noscript>
-
   <link rel="canonical" href="{{ page.url | prepend: site.url }}">
   {% assign posts=site.posts | where:"ref", page.ref | sort: 'lang' %}{% for post in posts %}
   <link rel="alternate" hreflang="{{ post.lang }}" href="{{ post.url }}" />{% endfor %}
@@ -47,6 +42,7 @@
   <link rel="alternate" type="application/rss+xml" title="{{ site.title | escape }}" href="{{ "/feed.xml" | relative_url }}">
   <style type="text/css">
     {{ page.style }}
+    {% include main.css %}
   </style>
 
   {% if jekyll.environment == 'production' %}

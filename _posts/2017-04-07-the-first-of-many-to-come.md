@@ -1,9 +1,9 @@
 ---
 layout: post
 title:  "The First of many to come!"
-description: Everything in life has a beginning "capitain obvious", this is mine begin, the begin to getting out of my box and get started to expose things that I did, I do and the things that I'll do for.
+description: Everything in life has a beginning "capitain obvious", this is my beginning, the beginning to getting out of my box and get started to expose things that I did, I do and the things that I'll do for.
 date:   2017-04-07 19:10:11 -0300
-excerpt: Everything in life has a beginning "capitain obvious", this is mine begin, the begin to getting out of my box and get started to expose things that I did, I do and the things that I'll do for...
+excerpt: Everything in life has a beginning "capitain obvious", this is my beginning, the beginning to getting out of my box and get started to expose things that I did, I do and the things that I'll do for...
 ref: thefirst
 lang: en
 style: |
@@ -12,7 +12,7 @@ style: |
 ---
 ### Here I am, writing my first of many post that will come
 
-Everything in life has a beginning ***captain obvious***, this is mine begin, the begin to getting out of my box and get started to expose things that I did, I do and the things that I'll do for this world, I spent all day thinking what am I going to writing about here in my first post.  
+Everything in life has a beginning ***captain obvious***, this is my beginning, the beginning to getting out of my box and get started to expose things that I did, I do and the things that I'll do for this world, I spent all day thinking what am I going to writing about here in my first post.  
 
 But what I did was watching some Youtube channels, reading some Bleach mangas *"no, I'm not an otaku"* and playing Grand Theft Auto V for long hours, after all, I bought the game on Steam pre-order and I haven't finished the game since then.  
 

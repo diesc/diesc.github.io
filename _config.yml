@@ -2,7 +2,6 @@
 title: Diego S.C.
 email: diegosc@protonmail.com
 description: Software Developer | Web Developer | Musician
-
 d:
   en:
     description: I'm a software, web and musician (why not) developer in new things.
@@ -53,15 +52,15 @@ e:
     read: Leia mais
 
 #reading time
-r:
-  en:
-    minute: minute
-    minutes: minutes
-    read: read
-  pt:
-    minute: minuto
-    minutes: minutos
-    read: de leitura
+minute:
+  en: minute
+  pt: minuto
+minutes:
+  en: minutes
+  pt: minutos
+read:
+  en: read
+  pt: de leitura
 
 #Footer translation
 made:

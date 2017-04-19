@@ -5,6 +5,17 @@ layout: default
   {% include post_header.html %}
   <div class="centered" itemprop="articleBody">
     <div class="post_content">
+      <div class="reading">
+        <span class="reading-time">
+          {% assign words = content | number_of_words %}
+          {% if words < 360 %}
+            1 {{ site.minute[page.lang] }}
+          {% else %}
+          {{ words | divided_by:180 }} {{ site.minutes[page.lang] }}
+          {% endif %}
+          {{ site.read[page.lang] }}
+        </span>
+      </div>
       {{ content }}
       {% include share_page.html %}
 
