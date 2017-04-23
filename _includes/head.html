@@ -35,10 +35,6 @@
   <meta name="twitter:card" content="summary">
 
   <link rel="canonical" href="{{ page.url | prepend: site.url }}">
-  {% assign posts=site.posts | where:"ref", page.ref | sort: 'lang' %}{% for post in posts %}
-  <link rel="alternate" hreflang="{{ post.lang }}" href="{{ post.url }}" />{% endfor %}
-  {% assign pages=site.pages | where:"ref", page.ref | sort: 'lang' %}{% for page in pages %}
-  <link rel="alternate" hreflang="{{ page.lang }}" href="{{ page.url }}" />{% endfor %}
   <link rel="alternate" type="application/rss+xml" title="{{ site.title | escape }}" href="{{ "/feed.xml" | relative_url }}">
   <style type="text/css">
     {{ page.style }}

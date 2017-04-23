@@ -4,10 +4,8 @@ title:  "Why did I choose Jekyll over Wordpress?"
 description: I'm considering that you've already know why I decided to create a blog so in this post, I'll explain why I chose jekyll over wordpress.
 date:   2017-04-15 12:33:11 -0300
 excerpt: I'm considering that you've already know why I decided to create a blog so in this post, I'll explain why I chose jekyll over wordpress...
-ref: jekyllxwordpress
-lang: en
 style: |
-  body { background-color: #ecf0f1; }
+  body { background-color: #ecf0f1!important; }
 
 ---
 ### Wordpress has a huge community support, it has a lot of specialized sites, yadda yadda blogs, yadda yadda plugins, yadda yadda tutorials and yadda yadda yadda and yadda.
@@ -30,9 +28,9 @@ Jekyll is *[a simple, blog-aware, static site generator perfect for personal, pr
 
 Jekyll was created using ruby and is installed as a rubygem. Jekyll is a static site. Static site is quick and cheap to develop and cheap to host, that's all what I was looking for!  
 
-Although the benefit of static web (it loading faster) over other blogging frameworks I don't recommend a static web site neither for people that don't have any kind of skills such as:**HTML, CSS, Javascript(optional), Markdown and liquid templates** nor for whom want to create a e-commerce or confidential website, this is a job for a dynamic site like Wordpress.  
+Although the benefit of static web (it loads faster) over the other blogging frameworks I don't recommend a static web site neither for people that don't have any kind of skills such as:**HTML, CSS, Javascript(optional), Markdown and liquid templates** nor for whom want to create a e-commerce or confidential website, this is a job for a dynamic site like Wordpress.  
 
-That's all folks, in the next post, I'll show you how can you create your own site/blog and hosting it on [github pages](https://pages.github.com/), all for free.  
+That's all folks, in the next post, I'll show you how can you create your own site/blog and hosting on [github pages](https://pages.github.com/), all for free.  
 
 One more thing, I'm one of the co-founders of [Weyes](http://weyes.com.br/) we're consulting and as soon as possible our courses will begin. We decided create our own blog to help us in the marketing and to promote our courses and I'm responsible to build the blog. With whole partners, can you guess which blog platform we choose to support ours blog, can you? If you said Wordpress, you're correct. A.S.A.P, I'll share it here **"obvious"** and I'll explain why we chose the Wordpress over a static site generator. cya!
 

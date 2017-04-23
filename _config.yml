@@ -1,12 +1,7 @@
 # Welcome to Jekyll!
 title: Diego S.C.
 email: diegosc@protonmail.com
-description: Software Developer | Web Developer | Musician
-d:
-  en:
-    description: I'm a software, web and musician (why not) developer in new things.
-  pt:
-    description: Sou dev de software, web e músico (por que não) em coisas novas.
+description: I'm a software, web and musician (why not) developer in new things.
 
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://diegosc.com" # the base hostname & protocol for your site, e.g. http://example.com
@@ -16,66 +11,6 @@ linkedin_username: disouzacosta
 facebook_username: diegsc
 
 permalink: /:title
-
-#Header translation
-article:
-  en: Articles
-  pt: Artigos
-info: Info
-idiom:
-  en: Idioms
-  pt: Idiomas
-
-#Indexing through the pages
-i:
-  en:
-    index: /
-    article: /articles
-    about: /about
-  pt:
-    index: /indice.html
-    article: /artigos.html
-    about: /sobre.html
-
-#Articles loop
-a:
-  en:
-    more: More
-  pt:
-    more: Mais
-
-#Read more
-e:
-  en:
-    read: Read more
-  pt:
-    read: Leia mais
-
-#reading time
-minute:
-  en: minute
-  pt: minuto
-minutes:
-  en: minutes
-  pt: minutos
-read:
-  en: read
-  pt: de leitura
-
-#Footer translation
-made:
-  en: Made with
-  pt: Feito com
-back:
-  en: Back to Top
-  pt: Voltar ao Topo
-
-# Share
-s:
-  en:
-    share: Share this on
-  pt:
-    share: Compartilhe
 
 # Build settings
 markdown: kramdown

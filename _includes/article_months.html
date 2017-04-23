@@ -1,20 +1,10 @@
 <div class="centered">
-  {% assign posts=site.posts | where:"lang", page.lang %}
+  {% assign posts=site.posts %}
   {% for post in posts %}
-      {% include date.html date=post.date %}
-
-      {% if page.lang == "en" %}
-          {% assign cDate = post.date | date: "%B, %Y" %}
-          {% capture currentDate %}
-            {{ cDate }}
-          {% endcapture %}
-      {% else %}
-          {% assign m = month  %}
-          {% assign y = year   %}
-          {% capture currentDate %}
-            {{ month }}, {{ year }}
-          {% endcapture %}
-      {% endif %}
+      {% assign cDate = post.date | date: "%B, %Y" %}
+      {% capture currentDate %}
+      {{ cDate }}
+      {% endcapture %}
 
       {% if currentDate != myDate %}
           {% unless forloop.first %}</ul>{% endunless %}
@@ -24,7 +14,7 @@
       {% endif %}
 
       {% include article_post.html %}
-      
+
       {% if forloop.last %}</ul>{% endif %}
 
   {% endfor %}

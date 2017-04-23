@@ -9,16 +9,16 @@ layout: default
         <span class="reading-time">
           {% assign words = content | number_of_words %}
           {% if words < 360 %}
-            1 {{ site.minute[page.lang] }}
+            1 minute
           {% else %}
-          {{ words | divided_by:180 }} {{ site.minutes[page.lang] }}
+          {{ words | divided_by:180 }} minutes
           {% endif %}
-          {{ site.read[page.lang] }}
+          read
         </span>
       </div>
       {{ content }}
       {% include share_page.html %}
-
+      
       {% include disqus-comment.html %}
 
     </div>

@@ -4,17 +4,11 @@
        <a class="article-title" href="{{ post.url | prepand: site.baseurl }}">{{ post.title | escape }}</a>
     </h2>
     <div class="post-meta">
-      <span>
-        {% if page.lang == "en" %}
-           {{ post.date | date: "%m/%d/%Y" }}
-        {% else %}
-           {{ post.date | date: "%d/%m/%Y" }}
-        {% endif %}
-      </span>
+      <span>{{ post.date | date: "%m/%d/%Y" }}</span>
     </div>
     <p>{{ post.excerpt }}</p>
     {% if post.excerpt %}
-      <a href="{{ post.url | prepend: site.baseurl }}" class="button">{{ site.e[page.lang]read }}</a>
+      <a href="{{ post.url | prepend: site.baseurl }}" class="button">Read more</a>
     {% endif %}
   </div>
 </article>

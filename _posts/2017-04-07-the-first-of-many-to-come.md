@@ -4,11 +4,9 @@ title:  "The First of many to come!"
 description: Everything in life has a beginning "capitain obvious", this is my beginning, the beginning to getting out of my box and get started to expose things that I did, I do and the things that I'll do for.
 date:   2017-04-07 19:10:11 -0300
 excerpt: Everything in life has a beginning "capitain obvious", this is my beginning, the beginning to getting out of my box and get started to expose things that I did, I do and the things that I'll do for...
-ref: thefirst
-lang: en
 style: |
-  body { background-color: #fff8ed; }
-  span.reading-time { color: #3a3a3a; }
+  body { background-color: #fff8ed!important; }
+  span.reading-time { color: #3a3a3a!important; }
 ---
 ### Here I am, writing my first of many post that will come
 
