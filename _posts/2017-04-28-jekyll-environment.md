@@ -8,8 +8,6 @@ image: /assets/img/jekyll-env.png
 style: |
   p img { box-shadow: 0 8px 50px -6px black!important; }
 ---
-![Post image](/assets/img/jekyll-env.png)
-
 ### In this post I'm going to show you how to set up your Windows, Linux and OS X Mac environment for Jekyll.
 
 Getting to the point, I'll started with Windows environment. But if you want to go direct to your O.S.  
