@@ -36,16 +36,18 @@
     <meta property="og:description" content="{{ site.description | strip_html | normalize_whitespace | truncate: 160 | escape }}">
   {% endif %}
   <!--Twitter Cards-->
-  <meta name="twitter:card" content="summary_large_image"/>
+  {% if page.image %}
+    <meta name="twitter:card" content="summary_large_image"/>
+    <meta name="twitter:image:src" content="{{ site.url }}{{ page.image }}">
+  {% else %}
+    <meta name="twitter:card" content="summary"/>
+    <meta name="twitter:image:src" content="{{ site.url }}/assets/img/logo120.png">
+  {% endif %}
   <meta name="twitter:title" content="{%if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
   <meta name="twitter:description" content="{{ page.excerpt | default: site.description | strip_html | normalize_whitespace | truncate: 160 | escape }}">
   <meta name="twitter:site" content="@Di_Will" />
   <meta name="twitter:creator" content="@Di_Will">
-  {% if page.image %}
-    <meta name="twitter:image:src" content="{{ site.url }}{{ page.image }}">
-  {% else %}
-    <meta name="twitter:image:src" content="{{ site.url }}/assets/img/logo120.png">
-  {% endif %}
+
   <link rel="canonical" href="{{ page.url | prepend: site.url }}">
   <link rel="alternate" type="application/rss+xml" title="{{ site.title | escape }}" href="{{ "/feed.xml" | relative_url }}">
   <style type="text/css">
@@ -56,4 +58,5 @@
   {% if jekyll.environment == 'production' %}
       {% include google-analytics.html %}
   {% endif %}
+  {% seo %}
 </head>
