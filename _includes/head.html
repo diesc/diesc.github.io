@@ -3,6 +3,10 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
+  {% if page.url == "/404.html" %}
+      <meta http-equiv="refresh" content="5; url=/">
+  {% endif %}
+
   <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
   <meta name="description" content="{{ page.excerpt | default: site.description | strip_html | normalize_whitespace | truncate: 160 | escape }}">
   <link rel="shortcut icon" href="/assets/img/favicon.png?" type="image/png" />
