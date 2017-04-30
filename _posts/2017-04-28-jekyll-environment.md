@@ -1,9 +1,9 @@
 ---
 layout: post
 title: Setting up your environment for Jekyll
-description: In this post I'm going to show you how to set up your Windows, Linux e OS X Mac environment for Jekyll
+description: In this post I'm going to show you how to set up your Windows, Linux and OS X Mac environment for Jekyll
 date: 2017-04-28 14:50:11 -0700
-excerpt: In this post I'm going to show you how to set up your Windows, Linux e OS X Mac environment for Jekyll
+excerpt: In this post I'm going to show you how to set up your Windows, Linux and OS X Mac environment for Jekyll
 image: /assets/img/jekyll-env.png
 style: |
   p img { box-shadow: 0 8px 50px -6px black!important; }
