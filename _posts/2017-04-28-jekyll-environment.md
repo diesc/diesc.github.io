@@ -1,28 +1,28 @@
 ---
 layout: post
 title: Setting up your environment for Jekyll
-description: In this post I'm going to show you how to set up your Windows, Linux and OS X Mac environment for Jekyll
+description: In this post, I'm going to show you how to set up your Windows, Linux and OS X Mac environment for Jekyll
 date: 2017-04-28 14:50:11 -0700
-excerpt: In this post I'm going to show you how to set up your Windows, Linux and OS X Mac environment for Jekyll
+excerpt: In this post, I'm going to show you how to set up your Windows, Linux and OS X Mac environment for Jekyll
 image: /assets/img/jekyll-env.png
 style: |
   p img { box-shadow: 0 8px 50px -6px black!important; }
 ---
-### In this post I'm going to show you how to set up your Windows, Linux and OS X Mac environment for Jekyll.
+### In this post, I'm going to show you how to set up your Windows, Linux and OS X Mac environment for Jekyll.
 
-Getting to the point, I'll started with Windows environment. But if you want to go direct to your O.S.  
+Getting to the point, I'll start with Windows environment. But if you want to go directly to your O.S.  
 
 [Installing Jekyll on Linux](#jekyll-on-linux)  
 [Installing Jekyll on Mac OS X](#jekyll-on-mac)
 
 ### Jekyll on Windows
 
-It's not common to see tutorial explaining how to set up Ruby on Windows because it's not a *"first-choice"* environment to install Ruby and Rails.
+It's not common to see the tutorial explaining how to set up Ruby on Windows because it's not a *"first-choice"* environment to install Ruby and Rails.
 
 First of all, I created this tutorial using Windows 10. Now you're asking yourself.
->Can I try install it on Windows 7 or Windows 8 or Windows 8.1?
+>Can I try to install it on Windows 7 or Windows 8 or Windows 8.1?
 
-Well, you can try it, there isn't a huge differences between these OS but you're aware that I've installed on Windows 10, right!?
+Well, you can try it, there aren't huge differences between these OS but you're aware that I've installed on Windows 10, right!?
 
 #### Installing Chocolatey
 
@@ -43,7 +43,7 @@ And paste the copied text into your command prompt. Press Enter and wait a few s
 If you don't see any errors, we are ready to use Chocolatey.  
 
 ```bash
-# For sure that everything is ok, type: "choco" on command prompt.
+# For sure that everything is ok, type: "choco" on the command prompt.
 C:\>choco
 ```
 ![CMD choco](/assets/img/win3.png)
@@ -86,24 +86,24 @@ gem install jekyll
 
 ![CMD gem install jekyll2](/assets/img/win11.png)  
 
-Wait a few second for complete it. Now we're going to install Bundler.  
+Wait for a few second for complete it. Now we're going to install Bundler.  
 
 [Bundler](http://bundler.io/) is essential to ensure that the gems you need are present in development, staging, and production.  
 
-To install Bundler, it's seem the same as Jekyll gem installation.
+To install Bundler, it seems the same as Jekyll gem installation.
 ```bash
 # Copy and paste or type the code below on your terminal
 gem install bundler
 ```
 ![CMD gem install bundler](/assets/img/win9.png)  
 
-Wait a few second, if you don't see any errors, we are ready to [create our first project](#creating-our-first-project).
+Wait for a few second, if you don't see any errors, we are ready to [create our first project](#creating-our-first-project).
 
 ### Jekyll on Linux  
 
-Despite I'm using Fedora distro, I create this tutorial on Ubuntu 17.04 distro because Ubuntu is still one of the most popular distro and one of the most intuitive for a non-linux user.  
+Despite I'm using Fedora distro, I create this tutorial on Ubuntu 17.04 distro because Ubuntu is still one of the most popular distros and one of the most intuitive for a non-Linux user.  
 
->Can I try install it on Ubuntu 15 or 16?  
+>Can I try to install it on Ubuntu 15 or 16?  
 
 Maybe, you can try it but I do not guarantee that it will works well.  
 
@@ -146,7 +146,7 @@ If you don't see any errors, we are ready to [create our first project](#creatin
 ### Jekyll on Mac
 
 Last but no least, I've used Mac OS X Sierra to install Jekyll.
-> Can I try to install it on El Capitan or Mavericks.  
+> Can I try to install it on El Capitan or Mavericks?  
 
 You can try it but I don't guarantee that it will work.
 
@@ -154,7 +154,7 @@ You can try it but I don't guarantee that it will work.
 
 To run Jekyll on Mac OS X we need to install the [Xcode](https://developer.apple.com/support/xcode/). The xcode has 4GB to download but we don't need the entirely Xcode unless you need it to programming in object-c or swift.  
 
-All we need it's just xcode command line tools. To install it open your terminal and type:
+All we need it's just Xcode command line tools. To install it open your terminal and type:
 ```bash
 # Copy and paste or type the code below on your terminal
 xcode-select --install
@@ -218,7 +218,7 @@ If you don't see any errors, we are ready to create our first project.
 
 Now we need to choose a place to create our project. In this example, I'll create the project in my **Documents** folder but you can create your project whatever you want.  
 
-Considering that you already are into **Documents** folder or in the folder that you choose.  
+Considering that you already are in **Documents** folder or in the folder that you choose.  
 ```bash
 # Copy and paste or type the code below on your terminal
 # Since myblog is the name of our project folder.
@@ -239,16 +239,16 @@ Into the **myblog** folder type.
 jekyll serve
 ```
 Windows
-![Windows jekyll s](/assets/img/win15.png)  
+![Windows Jekyll s](/assets/img/win15.png)  
 
 Linux
-![Linux jekyll s](/assets/img/linux09.png)  
+![Linux Jekyll s](/assets/img/linux09.png)  
 
 Mac
-![Mac OS X jekyll s](/assets/img/osx09.jpeg)  
+![Mac OS X Jekyll s](/assets/img/osx09.jpeg)  
 
-Take this [http://127.0.0.1:4000/](http://127.0.0.1:4000/) address and paste it on your favorite browser and see your first website/blog/portifolio running for the very first time.  
+Take this [http://127.0.0.1:4000/](http://127.0.0.1:4000/) address and paste it into your favorite browser and see your first website/blog/portfolio running for the very first time.  
 
 ![On browser](/assets/img/win16.png)   
 
-Thank you guys for read this article, I'll hope you enjoy it, any question about these installations, leave a message below.
+Thank you guys for reading this article, I'll hope you enjoy it, any question about these installations, leave a message below.
