@@ -18,23 +18,25 @@ That was a great challenge because I've never done anything like this before, I 
 
 I started my career in technology as a computer repair technician and as a help desk technician in the early 2000s  
 
-Delphi was my first programming language, I had this course in a *"vocational courses"* that were very popular in Brazil in the 90s and in the middle of 2000s.  
+Delphi was my first programming language, and I had this course in a *"vocational courses"* that were very popular in Brazil in the 90s and in the middle of 2000s.  
 
-The course was not as good as expected but it made me see the other side of technology that I did not know and I realized that technology was way beyond computer repair.
+The course was not as good as expected but it made me see the other side of technology that I did not know, and I realized that technology was way beyond computer repair.
 
 In 2010 I decided to go to college to learn more about software development and system analysis and here I am creating a blog to share my professional and life experience.
 
 ### Why did you decide to create a blog?
 
-The creation of a blog is based on the principle of: **to put me in a good position in the job market**, **to share my knowledge** and **to share my hobbies**.  
+I create the blog based on the principle of: **to put me in a good position in the job market**, **to share my knowledge** and **to share my hobbies**.  
 
-The **first** reason came because I see the blog as an extension (a DLC?) of my *résumé*, everyone has an easy access to the internet nowaday so you are giving a chance to people to see how you do work and how you know use your ideas, after all, who doesn't like to see or have a ***"free sample"*** of your work or a product, isn't it?  
+The **first** reason came because I see the blog as an extension (a DLC?) of my *résumé*.   
 
-The **second** reason came because I was feeling that I needed to expose all of my **raw accumulative knowledge** in something or somewhere. Making some search on the internet I discover that, to retain **75%** learners need to put into practice what they learned and incredible **90%** learners approximately retain when they teach someone else/use immediately.  
+Everyone has easy access to the internet nowaday so you are giving a chance to people to see how you do work and how you know use your ideas, after all, who doesn’t like to see or have a “free sample” of your job or product, isn’t it?
+
+The **second** reason came because I felt that I needed to expose all of my **raw accumulative knowledge** in something or somewhere. Making some search on the internet I discover that, to retain **75%** learners need to put into practice what they learned and incredible **90%** learners approximately retain when they teach someone else/use immediately.  
 
 The blog came to help me mastery my develop and analysis skills, to learn how to refine my raw information in knowledge and my writing skills.
 
-The **third** (the last but not least) reason came to share my hobbies, to share what I do like and don't like to do, as Jesus said a more than 2000 years ago ***"It is not just bread that keeps people alive [Matthew 4:4]"***. We only get one life, we don't need to spend it at all work. That's why I going to share my likes to games, music, books, foods, films and TV series, draw and arts and my faith.  
+The **third** (the last but not least) reason came to share my hobbies, to share what I do like and don't like to do, as Jesus said a more than 2000 years ago ***"It is not just bread that keeps people alive [Matthew 4:4]"***. We only get one life, we don't need to spend it at all work. That's why I'm going to share my likes about games, music, books, foods, films and TV series, draw and arts and my faith.  
 
 ### How can I contact you?
 Do you want to chat, make a job proposal, give and receive advice/tips and so forth?  
@@ -48,4 +50,4 @@ Do you want to chat, make a job proposal, give and receive advice/tips and so fo
 We are unhappy because we neglect and buried our talents
 
 #### One more thing
-You noticed that I'm not an **"English native"** not even an **"Expert"** but I'm writing in English because I want to get better and reach to the fluency. I'll appreciate if you help me spend your precious time send me your suggestion and correction about my sentences. ;)
+You noticed that I'm not an **"English native"** not even an **"Expert"**, but I'm writing in English because I want to get better and reach to the fluency. I'll appreciate if you help me spend your precious time send me your suggestion and correction about my sentences. ;)

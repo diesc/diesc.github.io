@@ -2,25 +2,22 @@
 layout: post
 title: Exploring Jekyll Directory Structure
 date: 2017-05-02 13:54:11-0700
-description: In the previous post you've learned how to set up your environment. Now in this post you’re going to know...
-excerpt: In the previous post you've learned how to set up your environment. Now in this post you’re going to know...
+description: In the previous post, you've learned how to set up your environment. Now in this post, you’re going to know...
+excerpt: In the previous post, you've learned how to set up your environment. Now in this post, you’re going to know...
 image: /assets/img/exploring-jekyll-directory-structure.png
 style: |
   body { background-color: #FFFAFA!important; }
   p img { box-shadow: 0 8px 50px -6px black!important; }
 ---
-### The second part of Jekyll tutorial, Beside of directory structure, you're going to see how to create a blank project by yourself.
+### The second part of Jekyll tutorial, Beside of directory structure, you’re going to see how to create a blank project by yourself.
 
-In the previous post, you've learned how to set up your environment. Now in this post, you’re going to know how Jekyll directory structure works and how you can create your first blank project.
+In the previous post, you’ve learned how to set up your environment. Now in this post, you’re going to know how Jekyll directory structure works and how you can create your first blank project.
 
 #### Text Editor
 
-Text editors are great tools that help us to edit any kind of documents. Without them, edit these documents
-would be a "pain in the neck". You can use your default text editor the come with your operational system or
-you can even use Microsoft Word, LibreOffice or the Google Docs "word-version".  
+Text editors are great tools that help us to edit any documents. Without them, edit these documents would be a “pain in the neck.” You can use your default text editor the come with your operational system or you can even use Microsoft Word, LibreOffice or the Google Docs “word-version.”
 
-But I'll recommend these "most powerful" text editors, they're lightweight, they have a bunch of plugins that turn
-our life easier.
+But I’ll recommend these “most powerful” text editors. They’re lightweight, and they have a bunch of plugins that turn our life easier.
 
 [Atom (All platforms)](https://atom.io/).
 
@@ -36,13 +33,13 @@ For this tutorial, I'm using **Windows** as my environment with **Atom** as my t
 
 ![Directory Structure](/assets/img/using-jekyll-project-structure.png)
 
-A basic Jekyll site usually looks something like that you're seeing in the picture above.
+A basic Jekyll site usually looks something like that you see in the picture above.
 
 We have a **_config.yml** files that contain the options used by the application to modify its behavior.  
 
 We have a **_includes** folder, where we can put the HTML files such as head.html, header.html, footer.html.  
 
-We have a **_posts** folder, here you can create your posts files following the format: ***YEAR-MONTH-DAY-title-MARKUP***.  
+We have a **_posts** folder, and here you can create your posts files following the format: ***YEAR-MONTH-DAY-title-MARKUP***.  
 
 To not waste this post writing all the files and the folders contented in the picture, you can read the complete definition [here](https://jekyllrb.com/docs/structure/).
 
@@ -56,14 +53,14 @@ If you followed the instruction of the first part of this tutorial, we've create
 
 Now you're asking yourself: - Where are the other files and folders?  
 
-The others files and folders are located in Ruby gem folder. To know where the gem folder is located, open your command prompt or terminal (if you're on Linux or Mac OS X), go to **myblog** folder and type:
+They are in Ruby's gem folder. To know where the gem folder is, open your command prompt or terminal (if you’re on Linux or Mac OS X), go to **myblog** folder and type:
 
 ```
 bundle show minima
 ```
 ![cmd](/assets/img/cmd1.png)
 
-If you open in your favorite text editor.
+If you open your project in a text editor, it will seem like this.
 
 ![Files and Folders2](/assets/img/j2.png)
 
@@ -71,9 +68,9 @@ Now you see the remaining files and folders. Now I'm going to teach you how to c
 
 #### Creating The Blank Project
 
-The minima themes are pretty cool but if I want to create my own project without the minima template by default?  
+The minima themes are pretty cool but if I want to create my project without the minima template by default?  
 
-It's possible and it's simple. First, we need to choose a new local to create our new project. I'll create my new project into my **Documents** folder, feel free to choose your personal folder place to create our new project. Into the folder you choose, you're going to type:
+It’s possible, and it’s simple. First, we need to choose a new local to create our new project. I’ll create my new project into my **Documents**  folder, feel free to choose your personal folder place to create our new project. Into the folder you've selected, you’re going to type:
 
 ```
 jekyll new awesome-blog --blank
@@ -93,7 +90,7 @@ If you noticed, our project don't have the **_config.yml**, **_sites**, **_posts
 If you're using Windows as your Ruby/Jekyll develop environment, we need to install the Devkit for some **gems** that need the
 **build tools** installed.  
 
-If we type **jekyll serve** in command prompt.
+If we type **jekyll serve** in command prompt, we'll see.
 
 ![cmd3](/assets/img/cmd3.png)
 
@@ -103,7 +100,7 @@ After we've created the **Gemfile**, we need to install **wdm** but before insta
 
 Go to [Ruby Devkit](http://rubyinstaller.org/downloads) and download the **DevKit-mingw64**.  
 
-After downloaded it, create a folder in any place and name it. My folder was created in **C:/** with the **Devkit** name.  
+After downloaded it, create a folder in any place and name it. I created my folder in **C:/** with the **Devkit** name.  
 
 > You can use chocolatey to install the Devkit too. Just type: choco install ruby2.devkit and follow the next step.  
 
@@ -166,9 +163,9 @@ Inside of **_assets** folder, create the **CSS** folder and inside of **CSS** fo
 
 ### Index.html
 
-Index.html is the homepage of your blog. If you noticed, there is a triple-dashed lines with some text inside it. This is called **Front Matter**.  
+Index.html is the homepage of your blog. If you noticed, there is a triple-dashed lines with some text inside it. It is called **Front Matter**.  
 
-[Front Matter](https://jekyllrb.com/docs/frontmatter/) is where Jekyll starts to get really cool. Any file that contains a [YAML](http://yaml.org/) front matter block will be processed by Jekyll as a special file.  
+[Front Matter](https://jekyllrb.com/docs/frontmatter/) is where Jekyll starts to get really cool. Jekyll will process any file that contains a [YAML](http://yaml.org/) front matter block as a special file.  
 
 > The front matter must be the first thing in the file and must take the form of valid YAML set between triple-dashed lines.  
 
@@ -178,7 +175,7 @@ Inside of the Front Matter, we have some predefined global variables, in the ind
 
 The **layout** is one of the three predefined variables ([to see the other two](https://jekyllrb.com/docs/frontmatter/)).
 
-> If set, this specifies the layout file to use. Use the layout file name without the file extension. Layout files must be placed in the  'layouts' directory.
+> If set, this specifies the layout file to use. Use the layout file name without the file extension. Layout files must be placed in the ‘layouts’ directory.
 
 ### includes, layouts, posts and site folders
 
@@ -193,7 +190,7 @@ header.html
 footer.html
 ![footer.html](/assets/img/footer.png)
 
-The **_layouts** folder is where we define the layout of our pages. Remember when I cited about Front Matter, triple-dashed lines and so on, got it!? Remember that inside of these triple-dashed lines I've set the 'layout: default' variable? Here we can create our default, page and post page. In this example, I created the default.html and post.html only.  
+The **_layouts** folder is where we define the layout of our pages. Remember when I cited about Front Matter, triple-dashed lines and so on, got it!? Bear in mind that inside of these triple-dashed lines I’ve set the ‘layout: default’ variable? Here we can create our default, page and post page. In this example, I created the default.html and post.html only.  
 
 default.html
 ![default.html](/assets/img/default.png)  
@@ -201,9 +198,9 @@ default.html
 post.html
 ![post.html](/assets/img/post.png)    
 
-If you've noticed in the post.html file, there is a front matter with 'layout: default' inside it, it means that post.html is inheriting all the properties of the default.html file.  
+If you’ve noticed in the post.html file, there is a front matter with ‘layout: default’ inside it, it means that post.html is inheriting all the properties of the default.html file.
 
-You've noticed some text inside of double braces too, didn't you? These are global, site and page variables that Jekyll makes a variety of data available via the [Liquid templating system](https://github.com/Shopify/liquid/wiki).
+You’ve noticed some text inside of double braces too, didn’t you? These are global, site and page variables that Jekyll makes a variety of data available via the [Liquid templating system](https://github.com/Shopify/liquid/wiki).
 
 The **_post** folder is where we create our posts. To create a post we need to follow the format **YEAR-MONTH-DAY-title.MARKUP** or **YEAR-MONTH-DAY-title.MD**, example: ***2017-05-03-example.markup*** or ***2017-05-03-example.md***.  
 

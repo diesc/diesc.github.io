@@ -1,32 +1,32 @@
 ---
 layout: post
 title: Setting up your environment for Jekyll
-description: In this post, I'm going to show you how to set up your Windows, Linux and OS X Mac environment for Jekyll
+description: In this post, I'm going to show you how to set up your Windows, Linux and Mac OS X environment for Jekyll
 date: 2017-04-28 14:50:11 -0700
-excerpt: In this post, I'm going to show you how to set up your Windows, Linux and OS X Mac environment for Jekyll
+excerpt: In this post, I'm going to show you how to set up your Windows, Linux and Mac OS X environment for Jekyll
 image: /assets/img/jekyll-env.png
 style: |
   p img { box-shadow: 0 8px 50px -6px black!important; }
 ---
-### In this post, I'm going to show you how to set up your Windows, Linux and OS X Mac environment for Jekyll.
+### In this post, I’m going to show you how to configure your Windows, Linux and Mac OS X environment for Jekyll.
 
-Getting to the point, I'll start with Windows environment. But if you want to go directly to your O.S.  
+Getting to the point, I’ll start with Windows environment but if you want to go directly to your O.S.  
 
 [Installing Jekyll on Linux](#jekyll-on-linux)  
 [Installing Jekyll on Mac OS X](#jekyll-on-mac)
 
 ### Jekyll on Windows
 
-It's not common to see the tutorial explaining how to set up Ruby on Windows because it's not a *"first-choice"* environment to install Ruby and Rails.
+It’s not common to see the tutorial explaining how to set up Ruby on Windows because it’s not a *“first-choice”* environment to install Ruby and Rails.
 
 First of all, I created this tutorial using Windows 10. Now you're asking yourself.
->Can I try to install it on Windows 7 or Windows 8 or Windows 8.1?
+> Can I try to install it on Windows 7 or Windows 8 or Windows 8.1?
 
-Well, you can try it, there aren't huge differences between these OS but you're aware that I've installed on Windows 10, right!?
+Well, you can try it, there aren’t vast differences between these OS, but you’re aware that I’ve installed on Windows 10, right!?
 
 #### Installing Chocolatey
 
-[Chocolatey](https://chocolatey.org/) is a package manager for Windows (like apt-get or yum or dnf for Windows), we're going to use it to install Ruby and Jekyll on Windows.  
+[Chocolatey](https://chocolatey.org/) is a package manager for Windows (like apt-get or yum or dnf for Windows), we’re going to use it to install Ruby and Jekyll on Windows.
 
 Open your command prompt as administrator mode.  
 
@@ -50,7 +50,7 @@ C:\>choco
 
 #### Installing Ruby on Windows
 
-Now we need to install Ruby, it's pretty simple. In command line.
+Now we need to install Ruby, and it’s pretty simple. In command line.
 ```bash
 # Copy and paste or type the code below on your terminal
 # The "-y" is to confirm all answer instead prompting it. Press Enter
@@ -58,13 +58,13 @@ choco install ruby -y
 ```   
 ![CMD choco install ruby -y](/assets/img/win5.png)  
 
-If you don't see any errors, all we need to do is refresh the console.  
+If you don’t see any errors, all we need to do is refresh the console.
 
 ### Refreshing the console  
 
-There are two ways to refresh the console, the common and the lazy (or smart) way.   
+There are two ways to refresh the console, the usual and the lazy (or smart) way.   
 
-The common way all you need to do is just simply close and re-open you command prompt.  
+The usual way all you need to do is just simply close and re-open you command prompt.  
 
 Now for the lazy **"smart"** way you can just simply.
 ```bash
@@ -77,7 +77,7 @@ Without close your command prompt.
 
 #### Installing Jekyll and Bundler on Windows
 
-To install Jekyll it's simple.
+To install Jekyll, it's simple.
 ```bash
 # Copy and paste or type the code below on your terminal
 gem install jekyll
@@ -101,11 +101,11 @@ Wait for a few second, if you don't see any errors, we are ready to [create our 
 
 ### Jekyll on Linux  
 
-Despite I'm using Fedora distro, I create this tutorial on Ubuntu 17.04 distro because Ubuntu is still one of the most popular distros and one of the most intuitive for a non-Linux user.  
+Although I’m using Fedora distro, I create this tutorial on Ubuntu 17.04 because Ubuntu is still one of the most popular distros and one of the most intuitive for a non-Linux user.  
 
->Can I try to install it on Ubuntu 15 or 16?  
+> Can I try to install it on Ubuntu 15 or 16?  
 
-Maybe, you can try it but I do not guarantee that it will works well.  
+Maybe, you can try it, but I do not guarantee that it will work well.  
 
 First of all, we need to certificate that we have the newest version of our package and their dependencies.
 
@@ -115,11 +115,11 @@ sudo apt-get update
 ```
 ![Terminal ubuntu apt-get](/assets/img/linux001.png)
 
-After that, we're ready to install ruby and all its *dependencies*, *libraries*, *make* and *gcc*.
+After that, we're ready to install Ruby and all its *dependencies*, *libraries*, *make* and *gcc*.
 
 #### Installing Ruby on Linux  
 
-To install ruby and its dependencies.
+To install Ruby and its dependencies.
 ```bash
 # Copy and paste or type the code below on your terminal
 sudo apt-get install ruby ruby-dev make gcc
@@ -132,12 +132,12 @@ If you don't see any errors, we're ready to install Jekyll and Bundler.
 
 #### Installing Jekyll and Bundler on Linux
 
-To install Jekyll and bundler it's pretty simple.
+To install Jekyll and Bundler, it's pretty simple.
 ```bash
 # Copy and paste or type the code below on your terminal
 sudo gem install jekyll bundler
 ```
-This could be take a while, be patience.
+That could take a while, be patience.
 
 ![Terminal ubuntu sudo gem install jekyll bundler](/assets/img/linux003.png)  
 
@@ -148,11 +148,11 @@ If you don't see any errors, we are ready to [create our first project](#creatin
 Last but no least, I've used Mac OS X Sierra to install Jekyll.
 > Can I try to install it on El Capitan or Mavericks?  
 
-You can try it but I don't guarantee that it will work.
+You can try it, but I don't guarantee that it will work.
 
 #### Installing XCODE
 
-To run Jekyll on Mac OS X we need to install the [Xcode](https://developer.apple.com/support/xcode/). The xcode has 4GB to download but we don't need the entirely Xcode unless you need it to programming in object-c or swift.  
+To run Jekyll on Mac OS X we need to install the [Xcode](https://developer.apple.com/support/xcode/). The Xcode has 4GB to download, but we don't need the entirely Xcode unless you need it to programming in object-c or swift.  
 
 All we need it's just Xcode command line tools. To install it open your terminal and type:
 ```bash
@@ -161,7 +161,7 @@ xcode-select --install
 ```
 ![Terminal OS X xcode-select --install](/assets/img/osx01.png)
 
-It will appear a message saying: **“The xcode-select command requires the command line developer tools. Would you like to install the tools now?"** Press **“install”** and wait a few minutes.
+It will appear a message saying: **“The xcode-select command requires the command line developer tools. Would you like to install the tools now?"** Press **“Install”** and wait a few minutes.
 
 #### Installing Ruby with RVM
 
@@ -182,22 +182,22 @@ source /Users/YourUserName/.rvm/scripts/rvm
 ```
 ![Terminal OS X source /Users/YourUserName/.rvm/scripts/rvm](/assets/img/osx03.png)
 
-Now we need to install ruby.
+Now we need to install Ruby.
 ```bash
 # Copy and paste or type the code below on your terminal
 rvm install ruby-2.4.1
 ```
 ![Terminal OS X rvm install ruby](/assets/img/osx04.png)
 
-During the process, RVM will also install the [Homebrew](https://brew.sh/), press **enter** to continue the installation.  
+During the process, RVM will also install the [Homebrew](https://brew.sh/), press **Enter** to continue the installation.  
 
->Homebrew is a package manager for MacOS as the Chocolatey is for Windows.
+> Homebrew is a package manager for Mac OS X as the Chocolatey is for Windows.
 
 ![Terminal OS X homebrew install](/assets/img/osx05.png)
 
 #### Installing Jekyll and Bundler on Mac OS X
 
-To install Jekyll it's simple.
+To install Jekyll, it's simple.
 ```bash
 # Copy and paste or type the code below on your terminal
 gem install jekyll
@@ -216,7 +216,7 @@ If you don't see any errors, we are ready to create our first project.
 
 ### Creating our first project
 
-Now we need to choose a place to create our project. In this example, I'll create the project in my **Documents** folder but you can create your project whatever you want.  
+Now we need to choose a place to create our project. In this example, I'll create the project in my **Documents** folder, but you can create your project whatever you want.  
 
 Considering that you already are in **Documents** folder or in the folder that you choose.  
 ```bash
