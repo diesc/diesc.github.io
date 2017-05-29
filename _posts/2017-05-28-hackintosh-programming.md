@@ -4,7 +4,7 @@ title: Hackintosh and Programming
 description: The tutorials about Jekyll has over. Now the blog is going to take a different...
 date: 2017-05-25 18:02:11 -0700
 excerpt: The tutorials about Jekyll has over. Now the blog is going to take a different...
-image: #/assets/img/hack_programing.png
+image: /assets/img/hack_programing.png
 style: |
   p img { box-shadow: 0 8px 50px -6px black!important; }
 ---
