@@ -6,6 +6,8 @@ date: 2017-07-18 15:06:45 -0700
 excerpt: In this article you'll learn how to install git on Fedora 26 and why not in other Linux distribution...
 image: /assets/img/how-install-git-fedora-26.png
 ---
+### Updated 7/22/2017: I fixed it because I noticed that I'd eaten some steps of my article.
+
 ### In this article, you'll learn how to install git on Fedora 26 and why not in other Linux distribution, let's get started!
 
 ***Almost two months away from the blog. Thank you, God, for bringing me back!***
@@ -28,19 +30,20 @@ As you could read, Git is a powerful tool to help us manage our projects and its
 
 ### Installation
 
-Here we'll learn two ways to install git on Fedora 26. The first we'll install git from system default repository ([Without Headaches Way](#without-headaches-way)) and the second one we'll install git from the official git release page ([Linux Geek Way](#linux-geek-way)).
+Here we'll learn two ways to install git on Fedora 26. The first we'll install git from system default repository ([Without Headaches Way](#without-headaches-way)) and the second one we'll install git from the official git release page ([Linux Geek Way](#linux-geek-way)).  
 
-### Without Headaches Way
-
-The "W.H.W." is very simple, but before using it, first, we need to check if our system is up-to-date with the latest version of packages.   
-In our command line.  
+Before using it, we need to check if our system is up-to-date with the latest version of packages.  
+In our command line, type:
 
 ```
 # Copy and paste the code below on command line.
 sudo dnf -y update
 ```
 
-Everything okay!? Next, install **Git** typing.
+### Without Headaches Way
+
+The "W.H.W." is very simple, all we need to do is type following command line down below in our terminal:
+
 ```
 # Copy and paste the code below on command line.
 sudo dnf -y install git
@@ -59,6 +62,12 @@ Congratulations, you get installed git **Without Headaches** and **Without Compl
 If you are fearless, self-confident and sometimes likes to get angry with new things, this is for you!  
 
 Before we started,  we need to install the required software dependencies from the default repositories, along with the utilities that needed to build a binary from source.
+```
+# Copy and paste the code below on command line.
+sudo dnf groupinstall “Development Tools”
+sudo dnf install curl-devel autoconf automake gettext-devel openssl-devel perl-CPAN perl-devel zlib-devel
+```
+Everything ok!? Now we're going to the next step.
 
 ```
 # Download the last version from git source
@@ -78,10 +87,10 @@ sudo make install
 # To check the version
 git --version
 ```
-Or  
+Or if you'd rather, you can download the latest version from Github either.
 
 ```
-Download the last version from Github
+Download or cloning the last version from Github: https://github.com/git/git
 
 # Extract all files
 tar -zxf NAME_OF_FILE.tar.gz
