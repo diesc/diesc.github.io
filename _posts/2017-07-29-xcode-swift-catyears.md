@@ -4,7 +4,7 @@ title: XCODE 9 Beta, Swift 4 and Cats Years
 description: Learning new things to set yourself apart from your competitors and reaching out new opportunities or...
 date: 2017-07-29 00:06:45 -0700
 excerpt: Learning new things to set yourself apart from your competitors and reaching out new opportunities or...
-image: /assets/img/xcode-swift-catyears.jpg
+image: /assets/img/xcode-swift-catsyears.jpg
 style: |
   p img { box-shadow: 0 8px 50px -6px black!important; }
 ---
@@ -50,4 +50,4 @@ That's it, in the future post I'll show the source code for you.
 
 Thank you guys for reading this article, I’ll hope you enjoy it, any question about it, leave a message down below.  
 
-*Thumbnail photo by [Andrea Natali](https://unsplash.com/@andrea_natali) on [Unsplash](https://unsplash.com/)*
+*Thumbnail photo by [Mikhail Vasilyev](https://unsplash.com/@miklevasilyev) on [Unsplash](https://unsplash.com/)*
