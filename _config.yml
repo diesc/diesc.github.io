@@ -5,7 +5,7 @@ description: I'm a software, web and musician (why not) developer in new things.
 logo: /assets/img/default-logo.png
 
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://diegosc.com" # the base hostname & protocol for your site, e.g. http://example.com
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: Di_Will
 github_username:  diegosozua
 linkedin_username: disouzacosta
